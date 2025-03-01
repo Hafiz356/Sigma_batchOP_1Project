@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* .box:first-child{
+            background-color: red;
+        } */
+        /* .box::first-line{
+            color: red;
+         } */
+        /* .box:nth-child(even){
+            background-color: aqua;
+        } */
+        /* .box:nth-last-child(1){
+            background-color: aquamarine;
+         } */
+        /* .boxes::before {
+            content: "Thi is practice website";
+            color: purple;
+        }
+
+        .boxes::after {
+            content: "Thi is practice website";
+            color: rgb(7, 156, 112);
+        } */
+
+        ::selection {
+            background-color: aqua;
+            color: red;
+        }
+
+        .boxes:nth-child(1)::first-letter {
+            font-size: 30px;
+        }
+        input::placeholder{
+            color: aqua;
+            font-size: 10px;
+
+        }
+    </style>
+</head>
+
+<body>
+    <div class="boxes">
+        <div class="box">lorem200</div>
+        <div class="box">I'm a box</div>
+        <div class="box">I'm a box</div>
+        <input type="text" placeholder="Enter Your name" name="" id="">
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,103 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+ul li{
+   
+    display: inline;
+    padding: 30px;
+    color: white;
+    font-weight: 600;
+    cursor: pointer;
+    font-size: 16px;
+    list-style: none;
+    
+}
+ul{s
+    margin-left: 100px;
+    
+}
+nav{
+    background-color: darkviolet;
+    padding: 10px;  
+    
+    
+}
+.main{
+    /* margin-top: 10px */
+    background-color: lightgray;
+    width: 90vw;
+    height: 70vh;
+    border-top:  5px solid white;
+    display: flex;
+    justify-content: space-around;
+    margin-left: 55px;
+    margin-top: 50px
+}
+ header nav{
+    position: fixed;
+    top: 0; /* Sticks to the top */
+    left: 0;
+    width: 100%;
+    
+}
+.box1{
+    /* margin-top: 20px; */
+    background-color: whitesmoke    ;
+    width: 30vw;
+    height: 60vh;
+    border-radius: 7px ;
+    margin-top: 20px;
+}
+.box2{
+    /* margin-top: 20px; */
+    background-color: whitesmoke ;
+    width: 30vw;
+    height: 60vh;
+    border-radius: 7px ;
+    margin-top: 20px;
+}
+.textrectangle{
+    background-color: steelblue;
+    border-radius: 20px;
+    width: 60vw;
+    height: 20vh;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+    margin-left: 20%;
+    /* justify-content: center; */
+}
+img{
+    border: 3px solid rgb(86, 5, 161);
+    border-radius: 50%;
+    object-fit: cover;
+    position: fixed; /* Keeps the icon fixed during scroll */
+    right: 10px; 
+    top: 82%;
+    /* transform: translateY(-50%);  */
+    z-index: 1000;
+
+}
+.fixedicon{
+    display: flex;
+    justify-content: flex-end;
+    
+}
+.footer{
+    width: 100%;
+    
+}
+p{
+    margin-top: 50px;
+    background-color: blueviolet;
+    color: white;
+    font-size: medium;
+    /* margin-left: 20px; */
+    padding: 10px 0px 10px 20px;
+    text-align: center  ;
+}
+

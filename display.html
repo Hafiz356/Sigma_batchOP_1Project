@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        .box{
+            border: 2px solid green;
+            width: 344px;
+            display: inline-block;
+            /* display: flex; */
+            padding: 45px;
+            margin: 34px;;
+        }
+        .box1{
+            /* display: none; */
+            /* visibility: hidden; */
+            /* display: flex; */
+        }
+        .shadow{
+            border: 2px solid;
+            padding: 10px;
+            width: 30vw;
+            margin: 50px auto;
+            box-shadow: 5px  5px #3fb172 ;
+        }
+        .textshadow{
+            margin-bottom: 5px;
+            text-shadow: 10px 4px 4px  #18d86e;
+            border: 3px solid;
+            outline-offset: 20px solid blue;
+        }
+    </style>
+</head>
+<body>
+    <div class="box box1">
+        I'm a Box
+    </div>
+    <div class="box">
+        also box two
+    </div>
+    <span>
+        I'm a good
+    </span>
+    <span> boy</span>
+
+    <div class="shadow">
+        I'm a shadow
+    </div>
+    <p class="textshadow">Lorem ipsum dolor sit amet.</p>
+</body>
+</html>
